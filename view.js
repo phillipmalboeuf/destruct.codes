@@ -1,26 +1,16 @@
 import React, { Component } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+
+import { styles } from './styles.js';
 
 
-class DestructView extends Component {
+export class DestructView extends Component {
 
 	render() {
 		return (
-			<View style={styles.view}>
+			<View style={styles.padded}>
+				<Text style={styles.text}>Let go of your material self, forget the physical laws of this world, ignore the biological process of your cells. Listen until nothing remains.</Text>
 			</View>
 		)
 	}
 }
-
-const styles = StyleSheet.create({
-	view: {
-		flex: 1,
-		backgroundColor: '#FFF'
-	},
-	heading: {
-		fontSize: 20,
-    	textAlign: 'center'
-	}
-})
-
-module.exports = DestructView;

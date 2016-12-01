@@ -10,8 +10,7 @@ import { DestructView } from './view.js'
 export default class DestructCodes extends Component {
   render() {
     return (
-      <DestructView>
-      </DestructView>
+      <DestructView />
     );
   }
 }
